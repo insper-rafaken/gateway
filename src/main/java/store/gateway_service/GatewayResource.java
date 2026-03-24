@@ -16,5 +16,5 @@ public class GatewayResource {
     public ResponseEntity<Void> healthCheck() {
         return ResponseEntity.ok().build();
     }
-
+    
 }
